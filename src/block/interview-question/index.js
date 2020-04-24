@@ -19,12 +19,12 @@ registerBlockType( 'oddevan/interview-question', {
 		question: {
 			type: 'array',
 			source: 'children',
-			selector: 'p.question',
+			selector: 'div.question',
 		},
 		answer: {
 			type: 'array',
 			source: 'children',
-			selector: 'p.answer',
+			selector: 'div.answer',
 		},
 	},
 	edit,

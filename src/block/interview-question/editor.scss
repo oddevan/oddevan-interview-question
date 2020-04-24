@@ -1,6 +1,9 @@
-// WordPress editor styles
-$color-blue: rgb(33, 175, 194);
-
 .wp-block-oddevan-interview-question {
-	color: $color-blue;
+	h6 {
+		border-bottom: 1px solid black;
+	}
+
+	div.question, div.answer {
+		border-bottom: 1px solid grey;
+	}
 }

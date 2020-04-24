@@ -16,15 +16,19 @@ const Edit = ( props ) => {
 
 	return (
 		<div className={ className }>
+			<h6>{ __( 'Question:', 'interview-question' ) }</h6>
 			<RichText
-				tagName="p"
+				tagName="div"
+				multiline="p"
 				className='question'
 				onChange={ (newQuestion) => setAttributes( { question: newQuestion } ) }
 				value={ question }
 				placeholder={ __( 'Question?', 'interview-question' ) }
 			/>
+			<h6>{ __( 'Answer:', 'interview-question' ) }</h6>
 			<RichText
-				tagName="p"
+				tagName="div"
+				multiline="p"
 				className='answer'
 				onChange={ (newAnswer) => setAttributes( { answer: newAnswer } ) }
 				value={ answer }

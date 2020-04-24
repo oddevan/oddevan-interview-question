@@ -1,6 +1,5 @@
-// Front-end styles
-$color-red: rgb(206, 70, 70);
-
 .wp-block-oddevan-interview-question {
-	color: $color-red;
+	.question {
+		font-style: italic;
+	}
 }

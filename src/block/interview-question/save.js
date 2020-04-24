@@ -15,12 +15,14 @@ const Save = ( props ) => {
 	return (
 		<div className={ className }>
 			<RichText.Content
-				tagName="p"
+				tagName="div"
+				multiline="p"
 				className='question'
 				value={ question }
 			/>
 			<RichText.Content
-				tagName="p"
+				tagName="div"
+				multiline="p"
 				className='answer'
 				value={ answer }
 			/>
