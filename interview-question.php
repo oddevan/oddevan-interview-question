@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:     oddEvan Interview Question
- * Description:     A starter plugin for Gutenberg blocks development.
+ * Description:     A block to easily write a question-and-answer format post.
  * Version:         0.1.0
  * Author:          oddEvan
  * License:         GPL-2.0-or-later
@@ -9,6 +9,7 @@
  * Text Domain:     interview-question
  *
  * @package         oddEvan\InterviewQuestion
+ * @since 0.1.0
  */
 
 namespace oddEvan\InterviewQuestion;
