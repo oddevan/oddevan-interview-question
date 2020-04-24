@@ -34,3 +34,7 @@ The output of the block is very simple:
 ## Hooks
 
 No hooks yet.
+
+## Credit
+
+Based on the [Block Starter from WebDevStudios](https://github.com/WebDevStudios/create-block).
