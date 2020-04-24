@@ -16,10 +16,15 @@ registerBlockType( 'oddevan/interview-question', {
 		__( 'interview-question', 'interview-question' ),
 	],
 	attributes: {
-		content: {
+		question: {
 			type: 'array',
 			source: 'children',
-			selector: 'p',
+			selector: 'p.question',
+		},
+		answer: {
+			type: 'array',
+			source: 'children',
+			selector: 'p.answer',
 		},
 	},
 	edit,

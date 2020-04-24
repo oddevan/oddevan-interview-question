@@ -7,25 +7,30 @@ import { __ } from '@wordpress/i18n';
 const Edit = ( props ) => {
 	const {
 		attributes: {
-			content,
+			question,
+			answer
 		},
 		className,
 		setAttributes,
 	} = props;
 
-	// Update field content on change.
-	const onChangeContent = ( newContent ) => {
-		setAttributes( { content: newContent } );
-	};
-
 	return (
-		<RichText
-			tagName="p"
-			className={ className }
-			onChange={ onChangeContent }
-			value={ content }
-			placeholder={ __( 'oddEvan Interview Question Demo...', 'interview-question' ) }
-		/>
+		<div className={ className }>
+			<RichText
+				tagName="p"
+				className='question'
+				onChange={ (newQuestion) => setAttributes( { question: newQuestion } ) }
+				value={ question }
+				placeholder={ __( 'Question?', 'interview-question' ) }
+			/>
+			<RichText
+				tagName="p"
+				className='answer'
+				onChange={ (newAnswer) => setAttributes( { answer: newAnswer } ) }
+				value={ answer }
+				placeholder={ __( 'Answer.', 'interview-question' ) }
+			/>
+		</div>
 	);
 };
 
