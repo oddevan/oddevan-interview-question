@@ -2,6 +2,10 @@
 
 For the WordPress Block Editor (a.k.a. Gutenberg).
 
+![Screenshot of block editor](screenshot-back.png)
+
+![Screenshot of website](screenshot-front.png)
+
 ## Setup
 
 1. Navigate to the downloaded directory
