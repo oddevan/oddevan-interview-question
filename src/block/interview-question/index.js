@@ -8,11 +8,11 @@ import { __ } from '@wordpress/i18n';
 import { registerBlockType } from '@wordpress/blocks';
 
 registerBlockType( 'oddevan/interview-question', {
-	title: __( 'Interview Question', 'interview-question' ),
+	title: __( 'Interview Question', 'oddevan-interview-question' ),
 	icon: 'edit',
 	category: 'formatting',
 	keywords: [
-		__( 'oddEvan', 'interview-question' ),
+		__( 'oddEvan', 'oddevan-interview-question' ),
 	],
 	attributes: {
 		question: {

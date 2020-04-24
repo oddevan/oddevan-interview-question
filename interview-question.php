@@ -6,7 +6,7 @@
  * Author:          oddEvan
  * License:         GPL-2.0-or-later
  * License URI:     https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain:     interview-question
+ * Text Domain:     oddevan-interview-question
  *
  * @package         oddEvan\InterviewQuestion
  * @since 0.1.0
@@ -33,7 +33,7 @@ function register_block() {
 
 	// Verify we have an editor script.
 	if ( ! file_exists( plugin_dir_path( __FILE__ ) . $editor_script ) ) {
-		wp_die( esc_html__( 'Whoops! You need to run `npm run build` for the oddEvan Interview Question first.', 'interview-question' ) );
+		wp_die( esc_html__( 'Whoops! You need to run `npm run build` for the oddEvan Interview Question first.', 'oddevan-interview-question' ) );
 	}
 
 	// Autoload dependencies and version.
