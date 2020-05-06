@@ -1,5 +1,12 @@
 .wp-block-oddevan-interview-question {
 	.question {
-		font-style: italic;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+		font-family: sans-serif;
+		font-weight: bold;
+		margin: 2em auto 1em auto;
+
+		p:last-child {
+			margin-bottom: 0.1em;
+		}
 	}
 }

@@ -1,9 +1,26 @@
 .wp-block-oddevan-interview-question {
 	h6 {
 		border-bottom: 1px solid black;
+		margin-bottom: 0;
 	}
 
 	div.question, div.answer {
 		border-bottom: 1px solid grey;
+		padding: 1em;
+		padding-bottom: 0;
 	}
+
+	div.question {
+		font-weight: normal;
+		background-color: rgba(0, 0, 0, 0.1);
+		margin-top: 0;
+		
+		p:last-child {
+			margin-bottom: 1em;
+		}
+	}
+}
+
+.editor-styles-wrapper .wp-block .wp-block-oddevan-interview-question h6 {
+	margin-bottom: 0;
 }
