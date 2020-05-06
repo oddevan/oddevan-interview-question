@@ -9,12 +9,10 @@ For the WordPress Block Editor (a.k.a. Gutenberg).
 ## Setup
 
 1. Navigate to the downloaded directory
-2. Run `npm install & npm run build`
-3. ???
-4. Profit!
+2. Run `npm install`
+3. Run `npm run build` again.
 
-**This plugin is still under development!** While you can try it out (and I welcome any feedback),
-the block structure may change in a way that breaks existing blocks.
+To build your changes, simply run `npm run build` again.
 
 ## Styling
 
